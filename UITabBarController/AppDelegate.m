@@ -61,7 +61,7 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
-	NSLog(@"Select %@", viewController);
+	NSLog(@"Select %lu", (unsigned long)tabBarController.selectedIndex);
 }
 
 @end

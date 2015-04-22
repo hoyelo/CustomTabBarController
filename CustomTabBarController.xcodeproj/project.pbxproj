@@ -14,7 +14,6 @@
 		0886932A1ADD446400CAEC2D /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693291ADD446400CAEC2D /* CustomTabBarController.m */; };
 		0886932D1ADD48BE00CAEC2D /* UIImage+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886932C1ADD48BE00CAEC2D /* UIImage+Colors.m */; };
 		088693301ADD490300CAEC2D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886932F1ADD490300CAEC2D /* UIColor+Hex.m */; };
-		088693321ADD4BC700CAEC2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 088693311ADD4BC700CAEC2D /* Default-568h@2x.png */; };
 		088693361ADD4F1700CAEC2D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693351ADD4F1700CAEC2D /* HomeViewController.m */; };
 		088693391ADD4F2200CAEC2D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693381ADD4F2200CAEC2D /* ProfileViewController.m */; };
 		0886933C1ADD4F3000CAEC2D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886933B1ADD4F3000CAEC2D /* HistoryViewController.m */; };
@@ -26,7 +25,6 @@
 		0886936A1ADD56ED00CAEC2D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693351ADD4F1700CAEC2D /* HomeViewController.m */; };
 		0886936B1ADD56F000CAEC2D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886933B1ADD4F3000CAEC2D /* HistoryViewController.m */; };
 		0886936C1ADD56F300CAEC2D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693381ADD4F2200CAEC2D /* ProfileViewController.m */; };
-		0886936D1ADD56F700CAEC2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 088693311ADD4BC700CAEC2D /* Default-568h@2x.png */; };
 		088693701ADD57C500CAEC2D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886936F1ADD57C500CAEC2D /* SettingsViewController.m */; };
 		088693711ADD57C500CAEC2D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886936F1ADD57C500CAEC2D /* SettingsViewController.m */; };
 		088693741ADD583D00CAEC2D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088693731ADD583D00CAEC2D /* TabBarController.m */; };
@@ -66,7 +64,6 @@
 		0886932C1ADD48BE00CAEC2D /* UIImage+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Colors.m"; path = "CustomTabBarController/UIImage+Colors.m"; sourceTree = "<group>"; };
 		0886932E1ADD490300CAEC2D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "CustomTabBarController/UIColor+Hex.h"; sourceTree = "<group>"; };
 		0886932F1ADD490300CAEC2D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "CustomTabBarController/UIColor+Hex.m"; sourceTree = "<group>"; };
-		088693311ADD4BC700CAEC2D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		088693341ADD4F1700CAEC2D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		088693351ADD4F1700CAEC2D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		088693371ADD4F2200CAEC2D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -122,7 +119,6 @@
 		088692F61ADD438200CAEC2D = {
 			isa = PBXGroup;
 			children = (
-				088693311ADD4BC700CAEC2D /* Default-568h@2x.png */,
 				088693331ADD4F0600CAEC2D /* UI */,
 				088693691ADD56DE00CAEC2D /* Category */,
 				088693011ADD438200CAEC2D /* CustomTabBarController */,
@@ -373,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				088693101ADD438200CAEC2D /* Images.xcassets in Resources */,
-				088693321ADD4BC700CAEC2D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				088693751ADD5D3400CAEC2D /* Images.xcassets in Resources */,
-				0886936D1ADD56F700CAEC2D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +692,7 @@
 				088693621ADD568400CAEC2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		088693661ADD568400CAEC2D /* Build configuration list for PBXNativeTarget "UITabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +701,7 @@
 				088693641ADD568400CAEC2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
